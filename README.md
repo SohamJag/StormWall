@@ -1,8 +1,8 @@
-# DDoS-Protection-Lite
+# StormWall
 
 [![Build Status](https://travis-ci.com/CleanTalk/anti-ddos-lite.svg?branch=master)](https://travis-ci.org/CleanTalk/anti-ddos-lite)
 
-Anti-DDoS-Lite (Anti-Crawler app) is a PHP app to protect your site against DDoS attack or crawling web site by bots.
+StormWall (Anti-Crawler app) is a PHP app to protect your site against DDoS attack or crawling web site by bots.
 
 ## Description
 Anti-DDoS-Lite helps block bots and reduce server load and stops bad bots before they can reach your original web page. During the opening of the site page, the application performs a JS check and if the check fails, then a blocking page will be displayed.
@@ -65,18 +65,5 @@ Skip trusted User-Agents. Regular expressions are allowed, example is bellow.
 );
 ```
 
-## Changelog
-Version 2.0.2
-* Fix. A document.write vulnerability fixed.
-* Fix. UA list converted to regular expressions.
-* Fix. UptimeRobot UA.
-* Fix. Trusted UA is skipped correctly.
-
-Version 2.0.1
- * New. Headless mode detection.
- * Fix. Now visitors without JS will be blocked correctly.
- * Refactoring and minor fixes.
 
 
-## Contacts
-Email: welcome@cleantalk.org
